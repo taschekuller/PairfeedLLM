@@ -38,7 +38,7 @@ export function Playground() {
     );
     return (
       <div key={message.id} className="flex items-start space-x-2">
-        <div className="w-20 text-sm text-green-500">{message.name}</div>
+        <div className="w-20 text-sm text-orange-500">{message.name}</div>
         <div className="flex-1 border rounded-lg p-2">
           <p className="text-black dark:text-white">{message.output}</p>
           <small className="text-xs text-gray-500">{date}</small>
